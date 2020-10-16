@@ -4,7 +4,7 @@ This is the classic came of TicTacToe it doesn't use any outside functions consi
 In the game the player is the 'O' and the computer is the 'X', the computer is programed to pick a random spot at the start then it will try to block the victory of the player
 or it will try to win with three in a row, in case the computer can't block or win the game it will pick a random possition again. the game is programed to check if the the player or the computer won after each move. the game ends after ether the player or the computer wins or in some cases it ends in draw.
 
-#Branch B (game_functions)
+# Branch B (game_functions)
 
 The updated versions uses functions in order to reduce the size of the main and make it more functional and easy to debug.
 
@@ -23,7 +23,7 @@ rematch(win,contin_playing) is a menu that ask the user if it wants to play agai
 
 win_check() is used to see if there are the same symbols in a row and declare the winner of the game or the draw if needed.
 
-#Branch C (game_classes)
+# Branch C (game_classes)
 
 another updated version of the game this time is organized in classes/objects.
 
